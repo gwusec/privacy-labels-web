@@ -1,0 +1,54 @@
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+p {
+	font-size: 14px;
+	width: 90%; 
+	position: relative; 
+	top: 40px; 
+	left:40px
+}
+
+ul {
+	font-size: 14px;
+	width: 90%; 
+        position: relative; 
+        top: 40px;
+        left:40px
+}
+
+input[type="checkbox"] {
+	display:none;
+}
+
+.more::after {
+	font-size:14px;
+}
+
+#toggle:checked ~ .more::after {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+	content: "Private messaging across the world \A \A Your personal messages and calls to friends and family are end-to-end encrypted. No one outside of your chats, not even WhatsApp, can read or listen to them. \A \A Simple and secure connections, right away \A \A All you need is your phone number, no user names or logins. You can quickly view your contacts who are on WhatsApp and start messaging. \A \A High quality voice and video calls \A \A Make secure video and voice calls with up to 8 people for free*. Your calls work across mobile devices using your phone’s Internet service, even on slow connections. \A \A Group chats to keep you in contact \A \A Stay in touch with your friends and family. End-to-end encrypted group chats let you share messages, photos, videos and documents across mobile and desktop. \A \A Stay connected in real time \A \A Share your location with only those in your individual or group chat, and stop sharing at any time. Or record a voice message to connect quickly. \A \A Share daily moments through Status \A \A Status allows you to share text, photos, video and GIF updates that disappear after 24 hours. You can choose to share status posts with all your contacts or just selected ones. \A \A * Data charges may apply. Contact your provider for details. \A \A";
+}
+
+label {
+	font-size: 14px;
+	text-align:right;
+	color: blue;
+}
+
+.visually-hidden: {
+	position: absolute;
+	left: -500px;
+}
+
+.icon {
+	border-radius: 15px;
+	display: table-cell;
+	vertical-align: middle;
+	float:left;
+}
+
