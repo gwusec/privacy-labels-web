@@ -1,0 +1,57 @@
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+p {
+	font-size: 14px;
+	width: 90%; 
+	position: relative; 
+	top: 40px; 
+	left:40px
+}
+
+ul {
+	font-size: 14px;
+	width: 90%; 
+        position: relative; 
+        top: 40px;
+        left:40px
+}
+
+input[type="checkbox"] {
+	display:none;
+}
+
+.more::after {
+	font-size:14px;
+}
+
+#toggle:checked ~ .more::after {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+	content: "Forecasts \A \A • View hourly forecasts for the next 24 hours and daily forecasts for the next ten days, including color-coded bars displaying the high and low temperatures. \A • See government information about certain severe weather events including tornados, winter storms, flash floods, and more. \A • View a chart that shows a minute‑by‑minute forecast of precipitation intensity over the next hour. \A • Receive notifications when rain or snow is about to start or stop. \A • See the most important weather information in a smart layout that adjusts to the current conditions. \A • See a graphical representation of UV index, sunset, wind, and more. \A • Beautifully animated backgrounds represent current weather conditions. \A \A Weather maps \A \A • View animated precipitation maps to see the path of a storm and intensity of upcoming rain and snow. \A • Explore air quality and temperature maps to see different conditions near you.\A • Pan and zoom to view other areas of the map, or use the list to quickly navigate to other saved locations. \A \A Air quality \A \A • Monitor air quality using a color-coded scale that displays the air quality level and category. \A • Easily see if air quality is better or worse than yesterday. \A • View air quality-related health recommendations. \A \A More ways to view Weather \A \A • Add a Weather widget to your Home Screen to see the forecast at a glance, view severe weather information, and learn about upcoming shifts in weather. \A • Use the Weather app on Apple Watch to see the forecast, view a minute-by-minute precipitation chart, get information about severe weather events, monitor air quality and UV Index, and more. \A • Customize your Watch Face with weather complications to see conditions at a glance. \A • Ask Siri weather questions such as “What’s the weather like today?”, “How windy is it out there?” or “What time is sunrise in Paris?” \A \A"
+}
+
+label {
+	font-size: 14px;
+	text-align:right;
+	color: blue;
+}
+
+.visually-hidden: {
+	position: absolute;
+	left: -500px;
+}
+
+.icon {
+	border-radius: 15px;
+	display: table-cell;
+	vertical-align: middle;
+	float:left;
+	overflow:hidden;
+	position: relative;
+	left: 40px;
+}
+
